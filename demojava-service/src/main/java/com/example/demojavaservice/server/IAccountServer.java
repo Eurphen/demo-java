@@ -1,5 +1,10 @@
-package com.example.demojavaservice;
+package com.example.demojavaservice.server;
+
+import com.example.demojavaservice.pojo.NewUser;
 
 public interface IAccountServer {
-    public User login(LoginReq loginReq);
+
+    boolean addUser(NewUser newUser);
+
+    boolean hasResource(String resource);
 }

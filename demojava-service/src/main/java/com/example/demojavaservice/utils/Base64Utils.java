@@ -1,4 +1,4 @@
-package com.example.demojavacommon.utils;
+package com.example.demojavaservice.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Base64;
